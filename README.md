@@ -1,5 +1,27 @@
 # Chat Server
 
+## How to Run the Server
+
+To compile and run the server and client, follow these steps:
+
+1. **Compile the Server and Client**: Open a terminal and navigate to the project directory. Run the following command to compile both server_grp.cpp and client_grp.cpp:
+    ```sh
+    make
+    ```
+    Ensure both the .cpp files and the makefile resides in the same directory.
+
+2. **Start the Server**: In the same terminal, start the server by running:
+    ```sh
+    ./server_grp
+    ```
+
+3. **Start the Client(s)**:
+    Open one or more new terminal windows and run:
+    ```sh
+    ./client_grp
+    ```
+This will start the server and allow multiple clients to connect and communicate with each other.
+
 ## Design Decisions
 
 ### Threading Model
